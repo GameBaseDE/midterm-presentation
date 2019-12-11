@@ -30,10 +30,12 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section class="no-heading-overview" data-background="https://gahr.dev/wp-content/uploads/2019/10/photo-1553481187-be93c21490a9.jpg">
+        <section class="no-heading-overview"
+                 data-background="https://gahr.dev/wp-content/uploads/2019/10/photo-1553481187-be93c21490a9.jpg">
             <h2 style="color: #f5f5f5">GameBase</h2>
             <h3 style="color: #f5f5f5">Midterm</h3>
-            <small style="color: #d6d6d6">by<br>Leonhard Gahr,<br>Norman Gehrsitz,<br>Stefan Lukas and<br>Kevin Reis</small>
+            <small style="color: #d6d6d6">by<br>Leonhard Gahr,<br>Norman Gehrsitz,<br>Stefan Lukas and<br>Kevin
+                Reis</small>
         </section>
 
         <section class="no-heading-overview table-of-contents" data-heading-tag="h2"
@@ -50,6 +52,71 @@
             <section class="center">
                 <h2 class="heading-overview">Our Team</h2>
                 <small>Who are we?</small>
+            </section>
+            <section id="team">
+                <style>
+                    /* Three columns side by side */
+                    #team .column {
+                        float: left;
+                        width: calc(50% - 16px);
+                        margin-bottom: 20px;
+                        padding: 0 8px;
+                    }
+
+                    /* Add some shadows to create a card effect */
+                    #team .card {
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    }
+
+                    /* Some left and right padding inside the container */
+                    #team .container {
+                        padding: 0 16px;
+                    }
+
+                    /* Clear floats */
+                    #team .container::after, .row::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+                </style>
+                <h3>We are</h3>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="container">
+                                <h5>Leonhard Gahr</h5>
+                                <small class="title">Project &amp; Configuration Manager</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <div class="container">
+                                <h5>Norman Gehrsitz</h5>
+                                <small class="title">Software Architect / System Analyst</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <div class="container">
+                                <h5>Stefan Lukas</h5>
+                                <small class="title">Test Manager / Process Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="container">
+                                <h5>Kevin Reis</h5>
+                                <small class="title">Deployment Manager / Tester</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
 

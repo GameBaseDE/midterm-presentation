@@ -1,7 +1,8 @@
 pages:
   stage: deploy
   script:
-    - mv . public
+    - mkdir /public
+    - mv * /public
   artifacts:
     paths:
       - public
